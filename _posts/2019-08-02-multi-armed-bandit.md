@@ -143,7 +143,7 @@ for _ in range(time_step):
 
 Here, we assigned $$\epsilon = 1$$. This is to force the exploration phase. However, as the time pass by, we slightly decrement it. Then, it will be exploring more over the time.
 
-<img src="/assets/2019-08-02/multi-armed-bandit.png">
+<img src="{{ site.url }}/{{ site.baseurl }}/assets/2019-08-02/multi-armed-bandit.png">
 
 Here we can see our **expected total reward** over the time.
 We can see that it’s low in the exploration phase, however it increases while exploiting the acquired knowledge.
