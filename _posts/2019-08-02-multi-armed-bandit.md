@@ -97,9 +97,9 @@ An awesome approach!
 The computational task is small and we store just $$k$$ and $$Q_k$$ (the current expected reward).
 
 ## Exploration and Exploitation Dilemma
-Right, now let’s return to our original problem, there are thousand of slot machine, how can we maximize our profits over the time?
+All right, now let’s return to our original problem, there are thousand of slot machine, how can we maximize our profits over the time?
 
-Since we can estimate the expected reward of each slot machine, it will exist one that will have  the highest **action-value**. Those are called **greedy-actions**.
+Since we can estimate the expected reward of each slot machine, it will exist one that will have the highest **action-value**. Those are called **greedy-actions**.
 
 Greedy-actions are defined as:
 
@@ -149,9 +149,9 @@ Here we can see our **expected total reward** over the time.
 We can see that it’s low in the exploration phase, however it increases while exploiting the acquired knowledge.
 
 ## Summary
-Here we introduced the multi-armed bandit problem. This is somehow a simplification of the reinforcement learning. Multi-armed bandit is a nonassociative problem, that is, the problem don’t have states which could influence in our decision making. However, we could extend this idea to an associative problem. For example, if each slot machine has a colored light that changes over the time.
+Here we introduced the multi-armed bandit problem. This is somehow a simplification of the reinforcement learning. Multi-armed bandit is a nonassociative problem, that is, the problem doesn’t have states which could influence in our decision making. However, we could extend this idea to an associative problem. For example, if each slot machine has a colored light that changes over the time.
 
-We tackled the problem solving the one-armed bandit through sample-averaging and incremental approach, and finally we solve the multi-armed bandit using the $$\epsilon$$-greedy method to explore and exploit our options.
+We tackled the problem solving the one-armed bandit through sample-averaging and incremental approach, and finally we solved the multi-armed bandit using the $$\epsilon$$-greedy method to explore and exploit our options.
 
 So, that’ all! Hope you enjoyed and I drop a notebook with the implementation below.
 
