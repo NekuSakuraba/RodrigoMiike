@@ -2,7 +2,6 @@
 layout: post
 title:  "Intro to multi-armed bandit, some coding and math"
 date:   2019-08-02 12:00:00 -0300
-categories: multi-armed bandit
 mathjax: true
 ---
 
